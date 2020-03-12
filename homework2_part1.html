@@ -1,0 +1,90 @@
+<HTML> 
+    <HEAD>
+        <META charset="utf-8">
+        <TITLE>Программа на Python, часть 1</TITLE>
+        <style>
+            table{
+            margin: auto;
+            }
+            th{
+                width: 50%;
+            }
+        </style>
+    </HEAD> 
+<!--начало документа --> 
+    <BODY> 
+        <img src="icon.png" alt="symbol" title="symbol" align="right">
+        <H1>HOW TO: Программа на Python, часть 1</H1>
+        <ul>
+        <li> <a href="homework1_part1.html">Программа на Python &mdash; часть 1</a></li>
+        <li> <a href="homework1_part2.html">Программа на Python &mdash; часть 2</a></li>
+        <li> <a href="homework1_part3.html">Программа на Python &mdash; часть 3</a></li>
+        </ul>
+        <a name="metka3"></a>
+        <h2>Содержание</h2> 
+        <h3>HOW TO: программа на Python, часть 1</h3> 
+        <ul>
+        <li> <a href="homework2_part1.html#metka1">Наша первая программа</a></li>
+        <li> <a href="homework2_part1.html#metka2">Пример цикла For</a></li>
+        </ul>
+        <p>Из множества существующих языков программирования Python &mdash; один из самых
+        лёгких в изучении. Он создан в конце 80-х годов XX века, но с тех пор он сильно 
+        изменился. Хотя Python входит в состав большинства дистрибутивов Linux, на него 
+        часто не обращают внимания при выборе языка для изучения. В этой статье мы 
+        рассмотрим создание консольных приложений, а в следующей  &mdash; 
+        программирование графических интерфейсов (<u>GUI</u>). Давайте создадим простую 
+        программу прямо сейчас. </p>
+        <a name="metka1"></a>
+        <h2>Наша первая программа</h2>
+        <a href="homework2_part1.html#metka3">К содержанию</a>
+        <p> Наберём код в текстовом редакторе (например, в <strong>gedit</strong> ). Потом мы разберёмся,
+        что делает каждая строка и 
+        пойдём дальше. 
+        <br>
+        <br>
+        Введите эти 4 строки: 
+        <br>
+        <br>
+        <small>#!/usr/bin/env python print 'Hello. I am a python <br>
+        program.' name = raw_input("What is your name?") <br>
+        print "Hello there, " + name + "!" </small> <br>
+        <br>
+        Это всё. Сохраните файл как hello.py в любом месте. Я предлагаю сохранить его в
+        папке python_examples в домашнем каталоге. Этот пример показывает, как просто
+        написать программу на Python. Для запуска программы нужно сделать её файл
+        исполняемым. Для этого введите в терминале 
+        <br>
+        <br>
+        <small> <strong> <i>chmod +x hello.py</i> </strong> </small> <br>
+        <br>
+        в папке, в которой вы сохранили программу. Теперь запустите её. 
+        <br>
+        <br>
+        <small>greg@earth:~/python_examples$ ./hello.py <br>
+            Hello. I am a python program. <br>
+            What is your name? Ferd Burphel <br>
+            Hello there, Ferd Burphel! <br>
+            greg@earth:~/python_examples$ </small> <br>
+        <br>
+        Вот и всё.</p>
+        <a name="metka2"></a>
+        <h2>Пример цикла For</h2>
+        <a href="homework2_part1.html#metka3">К содержанию</a>
+        <p>Теперь давайте рассмотрим пример программирования цикла. Запустите
+           текстовый редактор и наберите следующую программу: </p> 
+<pre><small>#!/usr/bin/env python for cntr in 
+range(0,10):
+     print cntr </small></pre> 
+        <p> <em>Не забудьте поставить символ табуляции перед строкой «print cntr».</em> Это
+        важно. В Python для указания на блоки кода используются не круглые « <strong>(</strong>» и
+        фигурные « <strong>{</strong>» скобки как в других языках программирования, а отступы.</p>
+        <table>
+        <tr>
+        <th align="left"><A HREF="empty"><IMG SRC="image1.png" title="Предыдущая страница"></A></th>
+        <th align="left"><A HREF="homework2_part1.html#metka3"><IMG SRC="home.png" title="Содержание"></A></th>
+        <th align="right"><A HREF="homework3.html"><IMG SRC="image2.png" title="Следующая страница"></A></th>
+        </tr>
+        </table>
+    </BODY> 
+<!--конец документа -->
+</HTML> ​
